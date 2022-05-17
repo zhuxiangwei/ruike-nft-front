@@ -1,0 +1,25 @@
+.uni-page-body{
+	width: 100%;
+	height: 100%;
+}
+.content {
+	margin: 0%;
+	background: #f9f9f9;
+	height: 100%;
+}
+.searchView{
+	position: fixed;
+	top: 0rpx;
+	background: #fff;
+	width: 100%;
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+	z-index: 2;
+}
+.searchView view{
+	width: 97%;
+	margin: auto;
+}
+.searchInput{
+	line-height: 80rpx;
+}

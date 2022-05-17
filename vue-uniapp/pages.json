@@ -1,0 +1,236 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path" : "pages/user/user",
+		    "style" : {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	    ,{
+            "path" : "pages/category3/category3",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/askGitHistory/askGitHistory",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "求赠历史记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/publish/pub_index/pub_index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发行方",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user_detail/user_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/user_collect/user_collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的收藏",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/user/share/share",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分享",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/user/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录注册",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/login/password/password",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "忘记密码",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/user/myworks/myworks",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的作品",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/user/myorders/myorders",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/user/apply/apply",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "申请入驻",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+			"path" : "pages/goods/list",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "系列作品",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/goods/details",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/goods/user",
+			"style" :                                                                                    
+			{
+				"navigationStyle":"custom"
+			}
+		}
+        ,{
+            "path" : "pages/user/myorders/orderDetail/orderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userset/userset",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户设置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userset/personalDetail/personalDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/searchResult/searchResult",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索结果",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userset/authenticate/authenticate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "身份认证",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+		"rpxCalcMaxDeviceWidth": 960, // rpx 计算所支持的最大设备宽度，单位 px，默认值为 960
+		"rpxCalcBaseDeviceWidth": 375, // rpx 计算使用的基准设备宽度，设备实际宽度超出 rpx 计算所支持的最大设备宽度时将按基准宽度计算，单位 px，默认值为 375
+		"rpxCalcIncludeWidth": 750 // rpx 计算特殊处理的值，始终按实际的设备宽度计算，单位 rpx，默认值为 750
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1277F1",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/icon-navbar-home.png",
+				"selectedIconPath": "static/image/icon-navbar-home-active.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "static/image/icon-navbar-category.png",
+				"selectedIconPath": "static/image/icon-navbar-category-active.png"
+			},
+			{
+				// "pagePath": "pages/competition/competition",
+				"pagePath": "pages/publish/pub_index/pub_index",
+				"text": "发行方",
+				"iconPath": "static/image/icon-navbar-fame.png",
+				"selectedIconPath": "static/image/icon-navbar-fame-active.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/image/icon-navbar-me.png",
+				"selectedIconPath": "static/image/icon-navbar-me-active.png"
+			}
+		]
+	}
+}
